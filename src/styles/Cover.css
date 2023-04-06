@@ -1,0 +1,27 @@
+.cover{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cover1{
+    flex-basis: 50%;
+}
+
+.cover1 img, .cover img{
+    width: 100%;
+    height: 100%;
+}
+.cover2{
+    flex-basis: 50%;
+}
+
+
+@media (max-width: 480px) {
+
+    .cover{
+        flex-direction: column;
+        margin-top: -22px;
+    }
+}

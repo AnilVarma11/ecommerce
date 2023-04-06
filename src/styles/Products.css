@@ -1,0 +1,19 @@
+.product-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.deals{
+  text-align: center;
+  color: blueviolet;
+}
+
+@media (max-width: 480px) {
+      .product-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: auto;
+      }
+}
